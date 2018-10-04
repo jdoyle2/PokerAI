@@ -115,7 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Poker.cpp" />
     <ClCompile Include="PokerAI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Poker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
